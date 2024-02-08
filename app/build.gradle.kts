@@ -6,6 +6,10 @@ android {
     namespace = "com.currenvyconvertor.app"
     compileSdk = 34
 
+    buildFeatures{
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.currenvyconvertor.app"
         minSdk = 29
